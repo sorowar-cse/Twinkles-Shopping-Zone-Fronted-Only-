@@ -1,0 +1,514 @@
+.gradient-background {
+    background: linear-gradient(302deg, #E5A060, #7ABBC3, #D7B297);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#our-nav {
+    background: #E5A060;
+    border-radius: 15px;
+}
+
+#navbarNavDropdown {
+    justify-content: right;
+}
+
+.nav-item a {
+    font-size: 24px;
+    color: #0b4d56;
+}
+
+.btn2 {
+    background: #7ABBC3;
+    color: white;
+    border-radius: 15px;
+}
+
+
+/* home page  */
+/* .banner-left {
+    background: white;
+    border-radius: 30px;
+} */
+.banner-left span {
+    color: darkblue;
+}
+
+.banner-left h1 {
+    font-weight: bolder;
+
+}
+
+.banner-right img {
+    width: 450px;
+    border-radius: 15px;
+}
+
+
+/* category page  */
+#category {
+    margin-top: 75px;
+}
+
+.first-row {
+    margin-top: 125px;
+}
+
+.first-row img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: -75px;
+
+}
+
+/* .cat-left {
+    background: #E5A060;
+    height: 500px;
+}
+
+.cat-right {
+    background: #E5A060;
+    height: 500px;
+} */
+.cat {
+    text-align: justify;
+}
+
+.cat h1 {
+    color: #0b4d56;
+    font-size: 54px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cat p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cat-button1 {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.second-row {
+    margin-top: 125px;
+}
+
+.second-row img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -75px;
+
+}
+
+.cat-button2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+/* Review Page  */
+/* <!-- Review Section --> */
+.test {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.test-img img {
+    background: #003f5c;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 130px;
+    margin-left: 50%;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.test i {
+    font-size: 3em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 73%;
+}
+
+.test-title p {
+    color: #63c380;
+}
+
+#testimonial .title {
+    color: white;
+    font-size: 2em;
+    font-family: 'Berkshire Swash', cursive;
+    padding: 10px;
+}
+
+.test-info {
+    background-color: rgb(80, 78, 168);
+    width: 50vw;
+    padding: 10px;
+    padding-left: 80px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* #testimonial {
+    background-image: url("img/banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+  } */
+.test-msg p {
+    color: white;
+}
+
+.test-title h1 {
+    color: #FDCF45;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Testimonial */
+    .test {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .test-img img {
+        margin-top: 20px;
+        margin-left: -30px;
+        position: absolute;
+        top: 0;
+        left: 40%;
+        z-index: 1;
+    }
+
+    .test i {
+        font-size: 3em;
+        color: #6B36E0;
+        margin-top: 72px;
+        margin-left: 40px;
+    }
+
+    .test-info {
+        text-align: center;
+        width: 90%;
+        padding: 10px;
+        padding-top: 80px;
+        margin-top: 70px;
+    }
+
+    #testimonial {
+        height: auto;
+    }
+}
+
+
+
+/* review form  */
+
+/* contact */
+.contact-left {
+    flex-basis: 40%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #FDCF45;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.sub-title span {
+    color: #FDCF45;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 25px;
+    color: #FDCF45;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #FDCF45;
+    transform: translate(-5px);
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #FDCF45;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+/* footer section  */
+footer span {
+    color: white;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #c18888;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+
+
+/* log in page  */
+.full {
+    height: 100vh;
+    background-color: #B2E2F0;
+}
+
+.image img {
+    height: 565px;
+    width: 100%;
+}
+
+.image {
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+.loginbox {
+    width: 650px;
+    height: 450px;
+    background: #d7a473;
+    color: white;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+
+.pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 40%;
+}
+
+.loginbox h1 {
+    margin-left: 35%;
+    font-size: 25px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+#one {
+    margin-left: 125px;
+    width: 350px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: blue;
+    color: white;
+}
+
+#two {
+    margin-left: 125px;
+    width: 350px;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: white;
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#psw {
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+/* register page  */
+
+/* .sub-container {
+    background: #E6E7E8;
+    padding: 20px;
+    border-radius: 10px;
+  } */
+
+
+.signup-left,
+.signup-right {
+    border-radius: 25px;
+    background: #E5A060;
+    color: white;
+}
+
+.register h2 {
+    color: white;
+    font-size: 54px;
+}
+
+.form-item input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 15px;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+    /* border-bottom: 0px solid white; */
+}
+
+#agree-term {
+    margin-left: -160px;
+}
+
+.agree-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.agree-text {
+    margin-left: -200px;
+}
+
+.form-item i {
+    color: white;
+    font-size: 25px;
+    margin-left: 12px;
+}
+
+.btn3 {
+    margin-left: 200px;
+    color: white;
+}
+
+.signup-right img {
+    border-radius: 15px;
+}
