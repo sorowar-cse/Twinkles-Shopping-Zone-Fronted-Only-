@@ -56,6 +56,28 @@
         <!-- </div> -->
 
     </header>
+    <!-- Cart Starts Here -->
+    <button type="button" class="btn btn-danger ms-5 btn-cart" onclick="chkout()"><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+
+ <!-- product card details starts -->
+ <div class="my-card" id="mycart">
+    <h1 class="text-center"><i class="fa-sharp fa-solid fa-cart-shopping"> My Cart</i></h1>
+    <hr>
+    <h3>Total Products: <span id="total-products">0</span></h3>
+    <h3>Price: <span id="price">0</span> BDT</h3>
+    <h3>Delivery Charge: <span id="delivery-charge">0</span> BDT</h3>
+    <h2>Total Price <span id="total">0</span> BDT</h2>
+    <h3>Tax (15%): <span id="tax">0</span> BDT</h3>
+    <hr>
+    <h2>Total Price with Tax: <br><span id="intotal">0</span> BDT</h2>
+    <button onclick="orderProducts()" class="btn btn-warning ms-3">Check Out!</button>
+    <!-- <div id="details"> -->
+        <hr>
+        <p class="text-center">Regards-<br><span>Twinkle's Shopping Zone</span></p>
+    <!-- </div> -->
+     <!-- Cart Ends Here -->
+
+</div>
 
     <main>
         <section id="d_one">
@@ -70,10 +92,10 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem debitis veritatis quaerat sequi,
                             cupiditate ea suscipit culpa fugiat nisi tempore nesciunt placeat alias voluptates amet
                             aspernatur doloribus porro quibusdam accusamus inventore. Quo.</p>
-                        <div class="cat-button2">
-                            <button type="button" class="btn btn-warning">Price: 1700 TK</button>
-                            <button type="button" class="btn btn-warning">Add to Cart</button>
-                        </div>
+                            <div class="cat-button2">
+                                <p class="Price">Price: 1700 TK</p>
+                                <button type="button" class="btn btn-warning" onclick="cart(1700)">Add to Cart</button>
+                            </div>
 
                     </div>
                     <div class="cat-midle col-lg-4 col-sm-4 mt-5">
@@ -170,7 +192,8 @@
     <footer>
         <p class="text-center mt-4 copyright">@Copyright <span>Twinkles</span> Shopping Zone</p>
     </footer>
-
+    <!-- connecting javascript  -->
+    <script src="script.js"></script>
 </body>
 
 </html>
