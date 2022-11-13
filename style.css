@@ -17,6 +17,41 @@
         background-position: 0% 50%;
     }
 }
+
+/* go to top css start here */
+.c-go-top i {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .c-go-top {
+    background: none repeat scroll 0 0 padding-box #FDCF45;
+    bottom: 20px;
+    border: 1px solid #003f5c;
+    border-radius: 4px;
+    color: rgb(154, 118, 118);
+    /* display: none; */
+    font-size: 12px;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    right: 5%;
+    text-decoration: none;
+    z-index: 999;
+  }
+  
+  .c-go-top:hover,
+  .c-go-top:focus,
+  .c-go-top:active,
+  .c-go-top:visited {
+    color: #fff;
+    outline: 0;
+    text-decoration: none;
+  }
+  
+  /* go to top css end here */
+  
 button a{
     text-decoration: none;
     color: #262626;
