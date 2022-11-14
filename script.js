@@ -50,7 +50,7 @@ const tax = (total) => {
 
 const orderProducts = () => {
     const final = document.getElementById('intotal').innerText;
-    alert("Dear Sir," + "\n" + "You have to pay: " + final + "\n" + "Thank You!" + "\n" + "Regrads-" + "\n" + "Twincles's Shopping Zone");
+    alert("Dear Sir," + "\n" + "You have to pay: " + final + "\n" + "Thank You!" + "\n" + "Regrads-" + "\n" + "Twinkles's Shopping Zone");
     document.getElementById('intotal').innerText = 0;
     document.getElementById('total-products').innerText = 0;
     document.getElementById('price').innerText = 0;
