@@ -522,7 +522,7 @@ button:hover {
     margin: 8px 15px;
     box-sizing: border-box;
     border: none;
-    background: white;
+    /* background: white; */
     /* border-bottom: 0px solid white; */
 }
 
